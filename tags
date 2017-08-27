@@ -1,0 +1,154 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOW_DEPRECATED_MACROS	build/core1-sdram-debug/config.h	71;"	d
+ARM_HAS_DTCM	build/core1-sdram-debug/config.h	64;"	d
+ARM_HAS_ITCM	build/core1-sdram-debug/config.h	65;"	d
+AppStrName	src/RefTable.c	/^const char AppStrName[] = { "Application" };$/;"	v
+ArmHasDTCM	Makefile	/^ArmHasDTCM = True$/;"	m
+ArmHasITCM	Makefile	/^ArmHasITCM = True$/;"	m
+AttrPprintf	src/printer_pageutils.c	/^int AttrPprintf( int page, int y, int x, char *stream )$/;"	f
+BtOSDir	Makefile	/^BtOSDir        = ..\/..\/..\/IDE\/SDK\/$(MACHPKG)\/BtOS$/;"	m
+CONFIG_H_	build/core1-sdram-debug/config.h	41;"	d
+CONTEXT_PRT	src/include/printer_task.h	/^} CONTEXT_PRT;$/;"	t	typeref:struct:__printer_task_context_
+CPU	Makefile	/^CPU = arm926$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = arm-none-eabi-$/;"	m
+CYGWIN	Makefile	/^CYGWIN=$(shell if cygpath --version >\/dev\/null 2>&1 ; then echo "True"; fi)$/;"	m
+CenterAlignPrint	src/printer_pageutils.c	/^int CenterAlignPrint( int page, int line, const char *stream )$/;"	f
+DEBUG_TRACE	src/main.c	12;"	d	file:
+DEBUG_TRACE	src/printer_task.c	5;"	d	file:
+DPRINTF	build/core1-sdram-debug/config.h	115;"	d
+DPRINTF	build/core1-sdram-debug/config.h	125;"	d
+DebugEnabled	Makefile	/^DebugEnabled = True$/;"	m
+ENABLE_DCACHE	build/core1-sdram-debug/config.h	62;"	d
+ENABLE_FIQ	build/core1-sdram-debug/config.h	61;"	d
+ENABLE_GPIO	build/core1-sdram-debug/config.h	68;"	d
+ENABLE_ICACHE	build/core1-sdram-debug/config.h	63;"	d
+ENABLE_IRQ	build/core1-sdram-debug/config.h	60;"	d
+ENABLE_MMU	build/core1-sdram-debug/config.h	79;"	d
+ENABLE_MMU	build/core1-sdram-debug/config.h	81;"	d
+ENABLE_UART	build/core1-sdram-debug/config.h	67;"	d
+EXRCS_DAT	Project.mk	/^EXRCS_DAT =  $(wildcard $(rootDir)\/exrcs\/*.dat)$/;"	m
+EXRCS_MP3	Project.mk	/^EXRCS_MP3 =  $(wildcard $(rootDir)\/exrcs\/*.MP3)$/;"	m
+EXRCS_PNG	Project.mk	/^EXRCS_PNG =  $(wildcard $(rootDir)\/exrcs\/*.png)$/;"	m
+EXRCS_TTF	Project.mk	/^EXRCS_TTF =  $(wildcard $(rootDir)\/exrcs\/*.TTF)$/;"	m
+EnableDCache	Makefile	/^EnableDCache = False$/;"	m
+EnableFIQ	Makefile	/^EnableFIQ = False$/;"	m
+EnableGpio	Makefile	/^EnableGpio = False$/;"	m
+EnableICache	Makefile	/^EnableICache = True$/;"	m
+EnableIRQ	Makefile	/^EnableIRQ = True$/;"	m
+EnableMMU	Makefile	/^EnableMMU = False$/;"	m
+EnableUart	Makefile	/^EnableUart = False$/;"	m
+FP_PRT_PAGEBUILDER	src/include/printer_task.h	/^typedef int (*FP_PRT_PAGEBUILDER)( int page, void* );	\/\/\/* function pointer $/;"	t
+FRAMEWORK	Makefile	/^FRAMEWORK = NO_FWK$/;"	m
+GSYS_PageBuilderPrintKeyValue	src/printer_pagebuilder.c	/^PRT_RESULT_t GSYS_PageBuilderPrintKeyValue( int page, void* parguments )$/;"	f
+GetPrinterContext	src/printer_task.c	/^CONTEXT_PRT* GetPrinterContext( void )$/;"	f
+HAVE_ROM_BOOTSTRAP	build/core1-sdram-debug/config.h	72;"	d
+HEAP_SIZE	build/core1-sdram-debug/config.h	76;"	d
+HeadTitleForm	src/printer_pageutils.c	/^int HeadTitleForm(int page, int y, char *title1, char *title2, char *title3)$/;"	f
+INC_VERSION	build/core1-sdram-debug/config.h	56;"	d
+INIT_VERSION	build/core1-sdram-debug/config.h	57;"	d
+LAYOUT	Makefile	/^LAYOUT = sdram$/;"	m
+LIBS	Project.mk	/^LIBS	= $/;"	m
+LIB_VERSION	build/core1-sdram-debug/config.h	58;"	d
+LINK_VERSION	build/core1-sdram-debug/config.h	59;"	d
+MACHPKG	Makefile	/^MACHPKG	= Macaroni$/;"	m
+PAGEBUILDER_ARGS	src/include/printer_pagebuilder.h	/^} PAGEBUILDER_ARGS;$/;"	t	typeref:struct:__pagebuilder_args__
+PFM	build/core1-sdram-debug/config.h	102;"	d
+PLATFORM	Makefile	/^PLATFORM = core1$/;"	m
+PROJECT	Project.mk	/^PROJECT = exam-BtApiPrinter-app$/;"	m
+PROJECT_CONFIG	Project.mk	/^PROJECT_CONFIG = debug$/;"	m
+PageBuilderF1Key	src/printer_pagebuilder.c	/^PRT_RESULT_t PageBuilderF1Key( int page, void* parguments )$/;"	f
+PageBuilderF2Key	src/printer_pagebuilder.c	/^PRT_RESULT_t PageBuilderF2Key( int page, void* parguments )$/;"	f
+PageBuilderF3Key	src/printer_pagebuilder.c	/^PRT_RESULT_t PageBuilderF3Key( int page, void* parguments )$/;"	f
+PageBuilderF4Key	src/printer_pagebuilder.c	/^PRT_RESULT_t PageBuilderF4Key( int page, void* parguments )$/;"	f
+Pprintf	src/printer_pageutils.c	/^int Pprintf( int page, int y, int x, char *stream )$/;"	f
+PrinterTask	src/printer_task.c	/^int PrinterTask( void *arg )$/;"	f
+REFTABLE	src/RefTable.c	/^const long REFTABLE[] = {$/;"	v
+REFTABLE	src/RefTable.c	/^const long REFTABLE[] __attribute__ ((section (".reftable"))); 	$/;"	v
+RESULT_SYS_ID	src/include/sys_def.h	/^} RESULT_SYS_ID;$/;"	t	typeref:enum:__anon2
+SIMULATION	build/core1-sdram-debug/config.h	69;"	d
+SPFM	build/core1-sdram-debug/config.h	108;"	d
+STACK_SIZE	build/core1-sdram-debug/config.h	75;"	d
+SVN_REVISION	VERSION.mk	/^SVN_REVISION  := $(strip $(subst ",,$(subst \\ev: ,,"\\$Rev: 110$(Nothing)")))$/;"	m
+SYSTEM	Makefile	/^SYSTEM = sdram0$/;"	m
+SYS_CANCEL	src/include/sys_def.h	/^	SYS_CANCEL,$/;"	e	enum:__anon2
+SYS_FAIL	src/include/sys_def.h	/^	SYS_FAIL    		  = -1,$/;"	e	enum:__anon2
+SYS_FAIL_NO_PAPER	src/include/sys_def.h	/^	SYS_FAIL_NO_PAPER    = -2,$/;"	e	enum:__anon2
+SYS_MOVE_FOCUS	src/include/sys_def.h	/^	SYS_MOVE_FOCUS,$/;"	e	enum:__anon2
+SYS_SUCCESS	src/include/sys_def.h	/^	SYS_SUCCESS,$/;"	e	enum:__anon2
+SYS_TIMEOUT_IDLE	src/include/sys_def.h	/^	SYS_TIMEOUT_IDLE,$/;"	e	enum:__anon2
+SetPageBuilder	src/printer_task.c	/^PRT_RESULT_t SetPageBuilder( FP_PRT_PAGEBUILDER builder, int page, void* arguments )$/;"	f
+SoCDir	Makefile	/^SoCDir         = ..\/..\/..\/IDE\/SDK\/$(MACHPKG)\/SoC$/;"	m
+StartPrint	src/printer_task.c	/^PRT_RESULT_t StartPrint( int page )$/;"	f
+TARGET_NAME	Project.mk	/^TARGET_NAME = $(PROJECT)$/;"	m
+TARGET_TYPE	Project.mk	/^TARGET_TYPE = bin$/;"	m
+TOOLS_VERSION	build/core1-sdram-debug/config.h	55;"	d
+USE_ATTRIBUTE_IRQ	build/core1-sdram-debug/config.h	70;"	d
+USE_HIGH_VECTORS	build/core1-sdram-debug/config.h	66;"	d
+UseLibC	Makefile	/^UseLibC = True$/;"	m
+UseLibCobra	Makefile	/^UseLibCobra = False$/;"	m
+UseLibDev	Makefile	/^UseLibDev = False$/;"	m
+VERSION	build/core1-sdram-debug/config.h	51;"	d
+VERSION_MAJOR	VERSION.mk	/^VERSION_MAJOR = 1$/;"	m
+VERSION_MAJOR	build/core1-sdram-debug/config.h	52;"	d
+VERSION_MINOR	VERSION.mk	/^VERSION_MINOR = 2$/;"	m
+VERSION_MINOR	build/core1-sdram-debug/config.h	53;"	d
+VERSION_PATCH	VERSION.mk	/^VERSION_PATCH = 0$/;"	m
+VERSION_PATCH	build/core1-sdram-debug/config.h	54;"	d
+__PRINTER_PAGEBUILDER_H__	src/include/printer_pagebuilder.h	2;"	d
+__PRINTER_PAGEUTILS_H__	src/include/printer_pageutils.h	2;"	d
+__PRINTER_TASK_H__	src/include/printer_task.h	2;"	d
+__SYS_DEF_H__	src/include/sys_def.h	2;"	d
+__dtcm__	build/core1-sdram-debug/config.h	152;"	d
+__dtcm__	build/core1-sdram-debug/config.h	154;"	d
+__fiq__	build/core1-sdram-debug/config.h	131;"	d
+__fiq__	build/core1-sdram-debug/config.h	134;"	d
+__irq__	build/core1-sdram-debug/config.h	130;"	d
+__irq__	build/core1-sdram-debug/config.h	133;"	d
+__itcm__	build/core1-sdram-debug/config.h	143;"	d
+__itcm__	build/core1-sdram-debug/config.h	145;"	d
+__pagebuilder_args__	src/include/printer_pagebuilder.h	/^typedef struct __pagebuilder_args__ {$/;"	s
+__printer_task_context_	src/include/printer_task.h	/^typedef struct __printer_task_context_ {$/;"	s
+__section__	build/core1-sdram-debug/config.h	137;"	d
+__sim_unused__	build/core1-sdram-debug/config.h	93;"	d
+__sim_unused__	build/core1-sdram-debug/config.h	95;"	d
+amount	src/include/printer_pagebuilder.h	/^	char amount[64];$/;"	m	struct:__pagebuilder_args__
+barcode	src/include/printer_pagebuilder.h	/^	char barcode[64];$/;"	m	struct:__pagebuilder_args__
+billid	src/include/printer_pagebuilder.h	/^	char billid[64];$/;"	m	struct:__pagebuilder_args__
+billtype	src/include/printer_pagebuilder.h	/^	char billtype[64];$/;"	m	struct:__pagebuilder_args__
+buildDir	Makefile	/^	buildDir 	:= $(subst C:, \/cygdrive\/c, $(subst \\,\/,$(buildDir)))$/;"	m
+buildDir	Makefile	/^buildDir = $(rootDir)\/build\/$(PLATFORM)-$(LAYOUT)-$(PROJECT_CONFIG)$/;"	m
+cellphone_no	src/include/printer_pagebuilder.h	/^	char cellphone_no[64];$/;"	m	struct:__pagebuilder_args__
+contxtPrinter	src/printer_task.c	/^static CONTEXT_PRT	contxtPrinter;$/;"	v	file:
+count	src/include/printer_pagebuilder.h	/^	char count[64];$/;"	m	struct:__pagebuilder_args__
+exportDir	Makefile	/^exportDir = $(SoCDir)\/export$/;"	m
+externalObjDir	Makefile	/^externalObjDir = $(BtOSDir)\/release\/objs-btos$/;"	m
+includeDirs	Makefile	/^includeDirs = $(SoCDir)\/include$/;"	m
+initDir	Makefile	/^initDir = $(SoCDir)\/init$/;"	m
+insertdot	src/printer_pageutils.c	/^static void insertdot( char* out_stream, char *in_stream )$/;"	f	file:
+key_ch	src/include/printer_pagebuilder.h	/^	char key_ch;$/;"	m	struct:__pagebuilder_args__
+key_scancode	src/include/printer_pagebuilder.h	/^	int  key_scancode;$/;"	m	struct:__pagebuilder_args__
+libDir	Makefile	/^libDir = $(SoCDir)\/lib$/;"	m
+libDirs	Project.mk	/^libDirs = $/;"	m
+linkDir	Makefile	/^linkDir = $(SoCDir)\/link$/;"	m
+main	src/main.c	/^int main( int argc, char *argv[] )$/;"	f
+mobilebillid	src/include/printer_pagebuilder.h	/^	char mobilebillid[64];$/;"	m	struct:__pagebuilder_args__
+pagebuilder	src/include/printer_task.h	/^	FP_PRT_PAGEBUILDER	pagebuilder[PRT_PAGE_NUM];\/\/\/< function pointer to write some contents on a page$/;"	m	struct:__printer_task_context_
+pagebuilderargs	src/include/printer_task.h	/^	void* pagebuilderargs[PRT_PAGE_NUM];		  \/\/\/< pagebuilder's argument pointer$/;"	m	struct:__printer_task_context_
+pagebuildermappedpage	src/include/printer_task.h	/^	int	  pagebuildermappedpage[PRT_PAGE_NUM];	  \/\/\/< dedicated page for a pagebuilder$/;"	m	struct:__printer_task_context_
+pin	src/include/printer_pagebuilder.h	/^	char pin[64];$/;"	m	struct:__pagebuilder_args__
+projectBtOSDir	Makefile	/^projectBtOSDir = ..\/..\/..\/Project-BtOS\/$(MACHPKG)$/;"	m
+rootDir	Makefile	/^rootDir        = .$/;"	m
+selected_page	src/include/printer_task.h	/^	int selected_page;	\/\/\/< page id which is selected ( 0 ~ 4 )$/;"	m	struct:__printer_task_context_
+strmoney	src/printer_pageutils.c	/^char *strmoney( double val ) $/;"	f
+strmoney2	src/printer_pageutils.c	/^char *strmoney2( double val ) $/;"	f
+sub_title	src/include/printer_pagebuilder.h	/^	char sub_title[64];$/;"	m	struct:__pagebuilder_args__
+toolsDir	Makefile	/^	toolsDir 	:= $(subst C:, \/cygdrive\/c, $(subst \\,\/,$(toolsDir)))$/;"	m
+toolsDir	Makefile	/^toolsDir = $(SoCDir)\/tools$/;"	m
+transaction_result	src/include/printer_pagebuilder.h	/^	char transaction_result[64];$/;"	m	struct:__pagebuilder_args__
+transaction_serial	src/include/printer_pagebuilder.h	/^	char transaction_serial[64];$/;"	m	struct:__pagebuilder_args__
+valid_data	src/include/printer_task.h	/^	int	valid_data;		\/\/\/< flag to check the data to print is ready or not( 1: ready )$/;"	m	struct:__printer_task_context_
